@@ -1,0 +1,18 @@
+{% if links is not empty %}
+	<div class="osu-tours-block">
+		{% for category, items in links %}
+			<div class="osu-tours-category">
+				<h3 class="osu-tours-category-title">{{ category }}</h3>
+				<ul class="osu-tours-links">
+					{% for item in items %}
+						<li class="osu-tours-link">
+							<a href="{{ item.url }}">{{ item.title }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endfor %}
+	</div>
+{% else %}
+	<p>No tours available for your roles.</p>
+{% endif %}

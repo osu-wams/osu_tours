@@ -1,0 +1,8 @@
+name: 'OSU Tours'
+type: module
+description: 'Displays role-based links to custom OSU Tours on the user profile page.'
+core_version_requirement: ^10 || ^11
+package: 'OSU'
+dependencies:
+  - drupal:tour
+  - drupal:user
