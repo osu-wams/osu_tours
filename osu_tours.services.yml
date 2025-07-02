@@ -1,6 +1,0 @@
-services:
-  osu_tours.user_login_redirect_subscriber:
-    class: Drupal\osu_tours\EventSubscriber\UserLoginRedirectSubscriber
-    arguments: ['@router']
-    tags:
-      - { name: event_subscriber }

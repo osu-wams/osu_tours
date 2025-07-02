@@ -1,3 +1,4 @@
+<?php
 /**
  * Implements hook_theme().
  */
@@ -11,10 +12,6 @@ function osu_tours_theme($existing, $type, $theme, $path) {
     ],
   ];
 }
-
-use Drupal\Core\Block\BlockManagerInterface;
-use Drupal\Core\Plugin\Context\ContextRepositoryInterface;
-use Drupal\Core\Render\RendererInterface;
 
 /**
  * Implements hook_page_attachments().
