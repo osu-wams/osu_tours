@@ -1,7 +1,7 @@
 {
   "name": "osu-wams/osu_tours",
   "description": "Drupal Module for OSU Tours",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimum-stability": "stable",
   "type": "drupal-custom-module",
   "license": "GPL-2.0-or-later",
