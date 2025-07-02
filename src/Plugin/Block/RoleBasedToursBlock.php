@@ -88,7 +88,7 @@ class RoleBasedToursBlock extends BlockBase {
     }
 
     return [
-      '#theme' => 'role_based_links_block',
+      '#theme' => 'role_based_tours_block',
       '#links' => $grouped_links,
       '#cache' => [
         'contexts' => ['user.roles'],
