@@ -36,15 +36,10 @@ class RoleBasedToursBlock extends BlockBase {
         ['title' => 'Users – Bulk Add CAS Users Page', 'path' => '/admin/people/create/cas-bulk', 'roles' => ['manage_users', 'architect']],
       ],
       'Content' => [
-        ['title' => 'Node page', 'path' => '/', 'roles' => ['content_authors', 'group_content_author', 'manage_content', 'architect']],
         ['title' => 'Edit Functions Tour', 'path' => '/node/add/page', 'roles' => ['content_authors', 'group_content_author', 'manage_content', 'architect']],
         ['title' => 'Content Overview', 'path' => '/admin/content', 'roles' => ['content_authors', 'manage_content', 'architect']],
-        ['title' => 'Editoria11y', 'path' => '/admin/reports/editoria11y', 'roles' => ['content_authors', 'group_content_author', 'manage_content', 'manage_blocks', 'architect']],
         ['title' => 'Media', 'path' => '/admin/content/media', 'roles' => ['content_authors', 'manage_content', 'architect']],
         ['title' => 'Layout Builder', 'path' => '/node/86/layout', 'roles' => ['content_authors', 'group_content_author', 'manage_content', 'architect']],
-      ],
-      'Theme' => [
-        ['title' => 'Madrone Theme Settings', 'path' => '/admin/appearance/settings/madrone', 'roles' => ['manage_site_configuration', 'architect']],
       ],
       'Menus' => [
         ['title' => 'Menus – Menu overview page', 'path' => '/admin/structure/menu', 'roles' => ['manage_menus', 'architect']],
@@ -55,22 +50,12 @@ class RoleBasedToursBlock extends BlockBase {
         ['title' => 'Block Layout Tour', 'path' => '/admin/structure/block', 'roles' => ['manage_blocks', 'architect']],
         ['title' => 'Content Type Creation', 'path' => '/admin/structure/types/add', 'roles' => ['manage_content', 'architect']],
         ['title' => 'Group Overview Page', 'path' => '/admin/group', 'roles' => ['architect']],
-      ],
-      'Views' => [
-        ['title' => 'View edit page', 'path' => '/admin/structure/views/view/osu_stories', 'roles' => ['architect']],
+        ['title' => 'Parent Site Configuration', 'path' => '/admin/appearance/settings/madrone', 'roles' => ['manage_site_configuration', 'architect']],
       ],
       'Aliases & Redirects' => [
         ['title' => 'Redirects – Overview Page', 'path' => '/admin/config/search/redirect', 'roles' => ['content_authors', 'manage_content', 'manage_site_configuration', 'architect']],
         ['title' => 'Redirects – Create', 'path' => '/admin/config/search/redirect/add', 'roles' => ['content_authors', 'manage_content', 'manage_site_configuration', 'architect']],
         ['title' => 'Aliases – Overview page', 'path' => '/admin/config/search/path', 'roles' => ['content_authors', 'group_content_author', 'manage_content', 'manage_site_configuration', 'architect']],
-      ],
-      'Tours' => [
-        ['title' => 'Tours', 'path' => '/admin/config/user-interface/tour', 'roles' => ['architect']],
-        ['title' => 'Edit tour', 'path' => '/admin/config/user-interface/tour/manage/add_user', 'roles' => ['architect']],
-        ['title' => 'Edit tip', 'path' => '/admin/config/user-interface/tour/manage/add_user/tip/edit/add_user_general', 'roles' => ['architect']],
-      ],
-      'Security' => [
-        ['title' => 'Honeypot', 'path' => '/admin/config/content/honeypot', 'roles' => ['manage_site_configuration', 'architect']],
       ],
     ];
 
