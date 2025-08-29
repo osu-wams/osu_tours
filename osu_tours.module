@@ -28,6 +28,9 @@ function osu_tours_preprocess_page(array &$variables) {
   }
 }
 
+/**
+ * Implements hook_preprocess_attachments().
+ */
 function osu_tours_page_attachments(&$variables) {
   $variables['#attached']['library'][] = 'osu_tours/global-styling';
 }
