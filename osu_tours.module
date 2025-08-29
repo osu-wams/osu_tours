@@ -27,3 +27,7 @@ function osu_tours_preprocess_page(array &$variables) {
     $variables['page']['content']['osu_tours_block'] = $block;
   }
 }
+
+function osu_tours_page_attachments(&$variables) {
+  $variables['#attached']['library'][] = 'osu_tours/global-styling';
+}
